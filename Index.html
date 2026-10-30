@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HUSHMSG - Speak Freely</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #090710;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  padding: 25px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #292238;
+}
+
+.logo {
+  font-size: 27px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: #c5a8ff;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 18px;
+}
+
+.hero {
+  text-align: center;
+  padding: 110px 20px;
+}
+
+.hero h1 {
+  font-size: clamp(40px, 8vw, 65px);
+  margin-bottom: 20px;
+}
+
+.hero h1 span {
+  color: #b99aff;
+}
+
+.hero p {
+  color: #b8b2c5;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+button {
+  background: #a77aff;
+  color: #090710;
+  border: none;
+  padding: 16px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  margin-top: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #c5a8ff;
+}
+
+.features {
+  padding: 55px 8%;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 32px;
+  margin-bottom: 35px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #171222;
+  border: 1px solid #382c50;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.card h3 {
+  color: #c5a8ff;
+  margin-bottom: 15px;
+}
+
+.card p {
+  color: #b8b2c5;
+  line-height: 1.6;
+}
+
+.premium {
+  text-align: center;
+  padding: 65px 20px;
+  background: #130e20;
+}
+
+.premium h2 {
+  color: #c5a8ff;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  color: #888;
+  border-top: 1px solid #292238;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">HUSHMSG.</div>
+  <nav>
+    <a href="#features">Features</a>
+    <a href="#premium">Premium</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Your secrets.<br><span>Your freedom.</span></h1>
+
+  <p>
+    Say what you feel.<br>
+    Send anonymous messages.<br>
+    Let your identity remain a mystery.
+  </p>
+
+  <button onclick="alert('Registration is coming soon!')">
+    Get Started
+  </button>
+</section>
+
+<section class="features" id="features">
+  <h2>Discover HUSHMSG</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <h3>Anonymous Messages</h3>
+      <p>Receive honest messages without revealing who sent them.</p>
+    </div>
+
+    <div class="card">
+      <h3>Private Inbox</h3>
+      <p>Keep all your messages organised in one place.</p>
+    </div>
+
+    <div class="card">
+      <h3>HUSH CLUES</h3>
+      <p>Unlock optional hints about your anonymous senders.</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="premium" id="premium">
+  <h2>HUSH PREMIUM 👑</h2>
+  <p>Unlock exclusive features and personalise your experience.</p>
+  <button onclick="alert('Premium subscriptions coming soon!')">
+    Explore Premium
+  </button>
+</section>
+
+<footer>
+  © 2026 HUSHMSG. All rights reserved.
+  <p>Say it. Nobody knows it's you.</p>
+</footer>
+
+</body>
+</html>
